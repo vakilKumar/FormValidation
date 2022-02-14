@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+htmll, body {
+    height: 100%;
+    display: flex;
+}
+
+.main-form-cont{
+    height: 30rem;
+    width: 100rem;
+    /* background-color: gray;     */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-cont{
+    height: 30rem;
+    width: 30rem;
+    background-color: gainsboro;
+}
+
+.input-box{
+    height: 1.5rem;
+    width: 20rem;
+    border: 1px solid black;
+}
+
+.submit-cont{
+    height: 2rem;
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.output-main-area{
+    height: 30rem;
+    width: 30rem;
+    background-color: antiquewhite;
+}
+
+.name-cont{
+    height: 1.5rem;
+    width: 29rem;
+    border: 1px solid black;
+}
+
+.name{
+    color: red;
+}
